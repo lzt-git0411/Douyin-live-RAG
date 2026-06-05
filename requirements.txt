@@ -1,0 +1,18 @@
+# === 核心依赖 ===
+sentence-transformers>=3.0.0    # BGE 嵌入模型
+faiss-cpu>=1.8.0               # FAISS 向量库（CPU 版）
+langchain>=0.3.0               # 文本切片与链式调用
+langchain-community>=0.3.0     # 社区集成
+
+# === Ollama 调用（HTTP API） ===
+requests>=2.31.0
+
+# === 数据处理 ===
+numpy>=1.26.0
+scikit-learn>=1.5.0            # 用于计算评测指标
+
+# === 可选：更精美的输出 ===
+rich>=13.0.0                   # 终端美化输出
+
+# === 开发辅助 ===
+python-dotenv>=1.0.0
